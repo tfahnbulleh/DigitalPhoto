@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="536.0" prefWidth="556.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="digitalpictureframe.FXMLDocumentController">
+  <children>
+    <Label fx:id="label" layoutX="126.0" layoutY="120.0" minHeight="16.0" minWidth="69.0" />
+    <ImageView id="pictureBox" fx:id="imageBox" fitHeight="357.75" fitWidth="477.000021873606" layoutX="40.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true" />
+    <HBox alignment="CENTER" layoutX="61.0" layoutY="457.0" prefHeight="47.0" prefWidth="306.0" spacing="8.0">
+      <children>
+        <Button fx:id="playBtn" mnemonicParsing="false" prefHeight="47.0" prefWidth="79.0" text="Play" textFill="BLACK" />
+        <Button fx:id="pauseBtn" mnemonicParsing="false" prefHeight="47.0" prefWidth="79.0" text="Pause" />
+        <Button fx:id="stopBtn" mnemonicParsing="false" prefHeight="47.0" prefWidth="79.0" text="Stop" />
+      </children>
+    </HBox>
+    <Label layoutX="102.0" layoutY="45.0" prefHeight="27.0" prefWidth="335.0" text="Digital Photo Animation" textAlignment="CENTER">
+      <font>
+        <Font name="Arial Black" size="15.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>
